@@ -82,3 +82,26 @@ p{
     margin: 0 5px;
     border-radius: 10px;
 }
+.my-area{
+    display: flex;
+    box-shadow: 10px 10px 40px gray;
+    margin: 20px;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-radius: 10px;
+}
+.last-part{
+    width: 50%;
+    padding-right: 20px;
+}
+.last-part img{
+    width: 70%;
+}
+.feedback{
+    display: flex;
+    margin: 0 100px;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 10px;
+}
