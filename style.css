@@ -22,16 +22,21 @@
     display: flex;
 }
 h1{
+    text-align: center;
+    font-size: 40px;
+}
+.model{
     padding-top: 10px;
     text-align: center;
     font-size: 30px;
+    color: rgb(65, 116, 236);
 }
 h2{
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 p{
     text-align: justify;
+    padding-top: 10px;
 }
 .two-part{
     width: 50%;
@@ -47,4 +52,33 @@ p{
 #bottom-border{
     border-bottom: 5px solid blue;
     border-right: 5px solid blue;
+}
+.products{
+    display: flex;
+    margin: 2% 5%;
+}
+.three-part{
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 50px gray;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+.three-part:hover{
+    background-color: red;
+}
+.three-part img{
+    width: 100%;
+}
+.product-content{
+    display: flex;
+    margin: 2% 7%;
+}
+.content-area{
+    width: 33%;
+    padding: 15px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 5px;
+    border-radius: 10px;
 }
